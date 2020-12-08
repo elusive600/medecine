@@ -1,0 +1,141 @@
+
+body, * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url(img/bg-header.png) no-repeat center center;
+    background-size: cover;
+}
+
+.header_top-line {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 17px 0;
+}
+
+.header_top-line .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 700;
+    color: #252525;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.logo_text span {
+    color: #6bc2f1;
+}
+
+.header_navigation {
+    margin: 0 auto 0 100px;
+}
+
+.header_navigation-link {
+    font-size: 14px;
+    font-weight: 700;
+    color: #252525;
+    text-decoration: none;
+    margin-right: 18px;
+    border-bottom: 1px solid transparent;
+    transition: 0.3s linear;
+}
+
+.header_navigation-link:last-child {
+    margin-right: 0;
+}
+
+.header_navigation-link:hover {
+    border-bottom: 1px solid #252525;
+}
+
+.header_button {
+    width: 140px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6bc2f1;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: background-color 0.4s ease;
+}
+
+.header_button:hover {
+    background-color: #d68c8c59;
+}
+
+.header_content {
+    padding: 280px 0 140px;
+}
+
+.header_content-inner {
+    width: 540px;
+}
+
+.header_titel {
+    font-size: 70px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.header_titel span {
+    font-weight: 700; 
+}
+
+.header_subtitle {
+    font-size: 26px;
+    color: #ffffff;
+    margin-bottom: 45px;
+}
+
+.header_content-text {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 45px;
+
+}
+
+.header_content-button {
+    width: 200px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    color: rgb(83, 38, 141);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    transition: 0.4s ease;
+}
+
+.header_content-button:hover {
+    background-color: #d68c8c59;
+    color: #ffffff;
+}
