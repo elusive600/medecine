@@ -793,6 +793,11 @@ footer {
         order:3;
     }
 
+    .futures_text {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
     .advantage_item {
         width: 243px;
     }
@@ -806,8 +811,12 @@ footer {
     }
 
     .gallery_item {
-        width: 249px;
-        margin: 10px 0 0;
+        width: 315px;
+        margin: 10px 0 10px;
+    }
+
+    .gallery {
+        padding: 0;
     }
 
     .gallery_item:nth-child(1),
@@ -816,6 +825,11 @@ footer {
     .gallery_item:nth-child(4),
     .gallery_item:nth-child(5) {
         margin-bottom: 0;
+    }
+
+    .footer_info-text {
+        font-size: 13px;
+        line-height: 20px;
     }
 }
 
