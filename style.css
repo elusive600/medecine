@@ -657,7 +657,7 @@ footer {
     }
 
     .advantages {
-        padding: 40px 0;
+        padding: 40px 0 10px;
     }
 
     .advantage_item:nth-child(4) {
