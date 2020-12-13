@@ -795,18 +795,14 @@ footer {
 
     .futures_text {
         font-size: 16px;
-        line-height: 21px;
+        line-height: 20px;
     }
 
     .advantage_item {
         width: 243px;
     }
 
-    .advantage_item:nth-child(1),
-    .advantage_item:nth-child(2),
-    .advantage_item:nth-child(3),
-    .advantage_item:nth-child(4), 
-    .advantage_item:nth-child(5) {
+    .advantage_item {
         margin-bottom: 25px;
     }
 
