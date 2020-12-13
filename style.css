@@ -338,7 +338,7 @@ body {
     display: block;
     width: 30px;
     height: 27px;
-    background: url(/img/slider-element.png) no-repeat;
+    background: url(img/slider-element.png) no-repeat;
     margin: 0 auto 40px;
 }
 
@@ -377,7 +377,7 @@ body {
     display: block;
     width: 11px;
     height: 21px;
-    background: url(/img/left-s.png) no-repeat;
+    background: url(img/left-s.png) no-repeat;
     margin-right: 25px;
 }  
 
@@ -386,7 +386,7 @@ body {
     display: block;
     width: 11px;
     height: 21px;
-    background: url(/img/right-s.png) no-repeat;
+    background: url(img/right-s.png) no-repeat;
     margin-left: 25px;
 }  
 
@@ -686,7 +686,7 @@ footer {
     }
 
     footer {
-        padding: 40px 0;
+        padding: 40px 0 25px;
     }
 
     .footer_inner {
@@ -738,7 +738,8 @@ footer {
     }
 
     .info_text {
-    margin-bottom: 40px;
+        margin-bottom: 40px;
+        font-size: 16px;
     }
 
     .info-button {
@@ -799,19 +800,21 @@ footer {
     .advantage_item:nth-child(1),
     .advantage_item:nth-child(2),
     .advantage_item:nth-child(3),
-    .advantage_item:nth-child(4) {
-        margin-bottom: 50px;
+    .advantage_item:nth-child(4), 
+    .advantage_item:nth-child(5) {
+        margin-bottom: 25px;
     }
 
     .gallery_item {
         width: 249px;
-        margin: 10px 0px;
+        margin: 10px 0 0;
     }
 
     .gallery_item:nth-child(1),
     .gallery_item:nth-child(2),
     .gallery_item:nth-child(3),
-    .gallery_item:nth-child(4) {
+    .gallery_item:nth-child(4),
+    .gallery_item:nth-child(5) {
         margin-bottom: 0;
     }
 }
@@ -861,10 +864,10 @@ footer {
         margin: 15px 0;
     }
 
-    /* !!!!!!!!!!!! */
+    /* !!!!!!!!!!!!
     .advantage_item {
         margin-bottom: 30px;
-    }
+    } */
 
     .slider_text {
         line-height: 24px;
